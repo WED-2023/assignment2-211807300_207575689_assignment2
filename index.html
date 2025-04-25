@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+g<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,12 +23,12 @@
 
         .login-title {
             text-align: center;
-            margin-bottom: 20px; /* מוסיף רווח מתחת לכותרת */
+            margin-bottom: 20px; 
         }
 
         .config-title {
         text-align: center;
-        margin-bottom: 20px; /* רווח מתחת לכותרת */
+        margin-bottom: 20px; 
         }
 
  
@@ -636,12 +636,11 @@
 
     // Function to add logout button to navigation
     function addLogoutButton() {
-        // Get the navigation element
         const nav = document.querySelector('nav');
         
         // Check if logout button already exists to avoid duplicates
         if (document.getElementById('logout-link')) {
-            return; // Button already exists, don't add another
+            return; 
         }
         
         // Create a new logout link
@@ -661,7 +660,6 @@
 
     // Call this function when the page loads
     window.addEventListener('load', function() {
-        // Add the logout button to navigation
         addLogoutButton();
     });
 
